@@ -1,4 +1,30 @@
 body{
-  //background-size:cover;
-  width:100%;
+  background-image: url('https://yu-tsai.github.io/week3_hw/picture/back2.jpg');
+  background-attachment:scroll;
+  background-size:cover;
+  background-repeat: no-repeat;
+}
+
+#tri{
+	width: 55%;
+	position: absolute;
+	top: 26.9vw;
+	left: 0.7%;
+	z-index:2;
+}
+
+#train{
+	width: 33%;
+	position: absolute;
+	top: 44vw;
+	left: 36.9%;
+	z-index:1;
+}
+
+#button{
+	width: 10vw;
+	position: absolute;
+	top: 31.5vw;
+	left: 81%;
+	z-index:1;
 }
